@@ -9,7 +9,19 @@
   body{
     font-family: montserrat;
   }
+
+  .kicker{
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  top: 40%;
+  left: 0;
+  right: 0;
+      font-size: 300%;
   
+}
+
   .navigationBar{
     background:#000000;  /* the navigation bar*/
     height: 130px;
@@ -76,12 +88,14 @@
     }
       div.hi-z{
           width:100%; /*Change the size of every thing to match the site*/
-          padding-bottom: 320px;
+          padding-bottom: 500px;
           padding-left: 0px;
           padding-top: 200px;
-          font-size: 15px;
-           background: rgba(0, 39, 54, 0.3);
+          
+           background: rgba(0, 39, 54, 0.2);
       }
+      
+      
   }
   
   
@@ -115,13 +129,17 @@
     #check:checked ~ ul{
       left: 0; /*when you check/click the three line bar the meny comes from the left -100% becomes 0%. os now it is in the right place */
     }
+      
+      .kicker{
+          font-size: 200%;
+      }
   }
   
   
   
   .fixed-bg {
       background-image: url("https://onclickwebdesign.com/wp-content/uploads/main-slider-3.jpg"); /*background picture */
-      min-height: 700px;  /*minimum height*/
+      min-height: 500px;  /*minimum height*/
       background-attachment: fixed;  /* The background image will not scroll with the page */
       background-position: center center;
       background-repeat: no-repeat; 
@@ -129,11 +147,7 @@
      
   }
   
-  .kicker{
-      margin-left: 20px;  /*all the text on the backpic. */
-      margin-right: 40%;
-      margin-bottom: 20px;
-  }
+ 
   
   
   
@@ -151,25 +165,6 @@
   
   
   
-  @media (max-width: 850px){  /* second level The applies if the page is smaller then 850 px*/
-   .fixed-bg {
-    min-height: 500px;  /*change of size of background pic */
-    }
-     
-      .hi-z{
-          width:100%; /*Change the size of every thing to match the site*/
-          padding-bottom: 160px;
-          padding-left: 0px;
-          padding-top: 200px;
-          font-size: 15px;
-           background: rgba(9, 36, 54, 0.5);
-      }
-      
-      .kicker{
-          margin-left: 10px;
-          margin-right: 10px;
-      }   
-  }
   
   
   .mid{

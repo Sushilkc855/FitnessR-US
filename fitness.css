@@ -88,7 +88,7 @@
     }
       div.hi-z{
           width:100%; /*Change the size of every thing to match the site*/
-          padding-bottom: 500px;
+          padding-bottom: 600px;
           padding-left: 0px;
           padding-top: 200px;
           
@@ -103,6 +103,7 @@
   @media (max-width: 850px){  /*third level*/
     .checkbtn{
       display: block;   /* the 3line bars showes up when the sites width gets smaller the 850px  */
+      line-height: 130px;
     }
    .navigationBar ul{
       position: fixed;
@@ -133,13 +134,14 @@
       .kicker{
           font-size: 200%;
       }
+     
   }
   
   
   
   .fixed-bg {
       background-image: url("https://onclickwebdesign.com/wp-content/uploads/main-slider-3.jpg"); /*background picture */
-      min-height: 500px;  /*minimum height*/
+      min-height: 800px;  /*minimum height*/
       background-attachment: fixed;  /* The background image will not scroll with the page */
       background-position: center center;
       background-repeat: no-repeat; 
@@ -155,10 +157,10 @@
       color: white;  /*Applies to every thing beside the backgroungd pic  */  
       text-align: left;
       width: 100%;
-      padding-top: 360px;
+      padding-top: 520px;
       padding-left: 0px;
       padding-bottom: 280px;
-      background: rgba(114, 114, 114, 0.1); /*A little transparent*/
+      background: rgba(114, 114, 114, 0.2); /*A little transparent*/
   
   }
   
